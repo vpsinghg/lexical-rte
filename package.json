@@ -1,6 +1,6 @@
 {
-  "name": "lexical-rte",
-  "version": "1.0.0",
+  "name": "lexical-custom-rte",
+  "version": "1.0.1",
   "description": "",
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.js",

@@ -17,9 +17,9 @@ const Counter = ({ value = 0 }: CounterProps) => {
 
   return (
     <div>
-      <div onClick={onMinus}></div>
+      <div onClick={onMinus}>Subtract</div>
       <div>Current Counter Value is {counter}</div>
-      <div onClick={onPlus}></div>
+      <div onClick={onPlus}>Add</div>
     </div>
   )
 }
