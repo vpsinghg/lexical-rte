@@ -28,11 +28,11 @@ jobs:
         
       - name: Install dependencies
         # This step install the dependencies
-        run: npm && npm install
+        run: npm install
 
       - name: Build
         # This runs the build scripts 
-        run: npm build
+        run: npm run build
 
       - name: Publish
         # This step publishes the built package to npm
